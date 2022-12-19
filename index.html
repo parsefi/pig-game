@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- first player -->
+        <div class=" player-panel active" id="player-0-panel">
+            <h1 class="player-0-header player-header active" id='player-0-name'>player 1</h1>
+            <div class="score-panel">
+                <div class="score" id ='score-0'>0</div>
+                <h4>total score</h4>
+            </div>
+            <div class="current-box">
+                <div id="current-0">0</div>
+                <div class="current-0-lable">current</div>
+            </div>
+        </div>
+        <!-- first player -->
+        <!-- second player -->
+        <div class=" player-panel" id="player-1-panel">
+            <h1 class="player-1-header player-header active" id="player-1-name">player 2</h1>
+            <div class="score-panel">
+                <div class="score" id='score-1'>0</div>
+                <h4>total score</h4>
+            </div>
+
+            <div class="current-box">
+                <div id="current-1">0</div>
+                <div class="current-1-lable">curent</div>
+            </div>
+        </div>
+        <!-- second player -->
+        <img src="./dice/dice-1.svg" class="dice"></img>
+        <span class="reloader button"><i class="material-icons">refresh</i>New Game</span>
+        <span class="roll-button button"> <i class="material-icons">autorenew</i> Roll Dice</span>
+        <span class="hold-button button"> <i class="material-icons">play_for_work</i> Hold Score</span>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
